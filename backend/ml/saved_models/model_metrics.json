@@ -1,0 +1,51 @@
+{
+  "dataset_size": 600,
+  "train_samples": 450,
+  "test_samples": 150,
+  "accuracy": 0.8933,
+  "precision": 0.9359,
+  "recall": 0.869,
+  "f1_score": 0.9012,
+  "roc_auc": 0.9666,
+  "confusion_matrix": {
+    "true_negative": 61,
+    "false_positive": 5,
+    "false_negative": 11,
+    "true_positive": 73
+  },
+  "feature_importances": {
+    "legal_dispute": 0.2284318876838119,
+    "ownership_conflict": 0.20261585404764176,
+    "documents_complete": 0.16820925159952757,
+    "compensation_verified": 0.07860070997630537,
+    "total_area_acres": 0.07008057098667132,
+    "proj_Metro": 0.06522609693837268,
+    "num_claimants": 0.037850229467335496,
+    "forest_clearance_obtained": 0.03682225797791488,
+    "proj_Hospital": 0.030817896609535385,
+    "forest_clearance_required": 0.018750757486000903,
+    "gram_sabha_noc_obtained": 0.01727039548141894,
+    "proj_Other": 0.016498429555464534,
+    "proj_Airport": 0.013895297106673183,
+    "proj_Railway": 0.007586390495828319,
+    "proj_Highway": 0.007343974587497965
+  },
+  "feature_names": [
+    "documents_complete",
+    "legal_dispute",
+    "ownership_conflict",
+    "compensation_verified",
+    "forest_clearance_required",
+    "forest_clearance_obtained",
+    "gram_sabha_noc_obtained",
+    "total_area_acres",
+    "num_claimants",
+    "proj_Highway",
+    "proj_Railway",
+    "proj_Metro",
+    "proj_Airport",
+    "proj_Hospital",
+    "proj_Other"
+  ],
+  "model_version": "RandomForest-v1.0-Production"
+}
